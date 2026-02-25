@@ -9,7 +9,7 @@
 <table border="1" cellpadding="6" id="table"></table>
 
 <script>
-fetch("users.xml")
+fetch("user.xml")
 .then(response => response.text())
 .then(str => {
     const parser = new DOMParser();
